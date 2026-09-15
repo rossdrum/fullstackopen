@@ -1,0 +1,3 @@
+sequenceDiagram
+    spa newnote->>+Server: send new note to new_note_spa via form (POST req)
+    Server-->>-spa newnote: extract single note, push it to notes, redraw notes (generate html again) and send notes to server (which will be json)
