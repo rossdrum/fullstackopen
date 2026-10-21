@@ -54,6 +54,17 @@ body {
   margin: 0;
 }
 
+.notification {
+  color: green;
+  background-color: lightgrey;
+  font-size: 20px;
+  border: 3px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+}
+
 #root {
   width: 1126px;
   max-width: 100%;
@@ -108,4 +119,8 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+.notification.error {
+  color: red;
+  border-color: red;
 }
